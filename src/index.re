@@ -1,4 +1,4 @@
-/* Based on https://rosettacode.org/wiki/FizzBuzz#OCaml */
+
 let fizzbuzz = (i) =>
   switch (i mod 3, i mod 5) {
   | (0, 0) => "FizzBuzz"
